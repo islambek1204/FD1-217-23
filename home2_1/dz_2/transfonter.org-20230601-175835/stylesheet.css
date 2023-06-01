@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'ChunkFive Print';
+    src: url('ChunkFivePrint.eot');
+    src: url('ChunkFivePrint.eot?#iefix') format('embedded-opentype'),
+        url('ChunkFivePrint.woff2') format('woff2'),
+        url('ChunkFivePrint.woff') format('woff'),
+        url('ChunkFivePrint.ttf') format('truetype'),
+        url('ChunkFivePrint.svg#ChunkFivePrint') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ChunkFive';
+    src: url('ChunkFive-Regular.eot');
+    src: url('ChunkFive-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ChunkFive-Regular.woff2') format('woff2'),
+        url('ChunkFive-Regular.woff') format('woff'),
+        url('ChunkFive-Regular.ttf') format('truetype'),
+        url('ChunkFive-Regular.svg#ChunkFive-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
