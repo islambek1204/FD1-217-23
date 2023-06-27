@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bin{
+    float: left;
+    padding: 25px 0px 20px 70px;
+}
+.container{
+    width: 1350px;
+    margin: 0 auto;
+}
+.menu{
+    float: right;
+    margin: 0 100px;
+}
+.header{
+    
+}
+
+.menu2{
+    float: left;
+    list-style: none;
+    padding: 30px 20px 0 20px;
+    font-size: 16px;
+    font-family: 'italic', sans-serif;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase
+}
+.but{
+    width: 250px;
+    height: 75px;
+    background: #003B77;
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'italic', sans-serif;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+.bur{
+    padding: 0 0 0 40px;;
+}
+.trump{
+    clear:both;
+}
+.titl{
+    padding: 45px 0 70px 0;
+}
+.trusk{
+    background: url('tr.XXL.png') 0 150px no-repeat ;
+    background-size: cover;
+}
+h2{
+    white-space: pre;
+    color: #9F9;
+    font-size: 60px;
+    font-family: 'italic', sans-serif;
+    font-weight: 800;
+    line-height: 140%;
+    text-transform: uppercase;
+}
