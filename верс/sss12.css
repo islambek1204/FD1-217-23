@@ -3,22 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+li {
+    list-style-type: none;
+}
 .bin{
     float: left;
     padding: 25px 0px 20px 70px;
-}
-.container{
-    width: 1350px;
-    margin: 0 auto;
 }
 .menu{
     float: right;
     margin: 0 100px;
 }
-.header{
-    
+.cont{
+    width: 1450px;
+    margin: 0 auto;
 }
-
 .menu2{
     float: left;
     list-style: none;
@@ -43,22 +42,49 @@
 .bur{
     padding: 0 0 0 40px;;
 }
-.trump{
-    clear:both;
-}
 .titl{
     padding: 45px 0 70px 0;
+    width: 900px;
 }
 .trusk{
-    background: url('tr.XXL.png') 0 150px no-repeat ;
+    background: url('tr.XXL.png') 0 180px no-repeat ;
     background-size: cover;
 }
 h2{
     white-space: pre;
     color: #9F9;
-    font-size: 60px;
+    font-size: 40px;
     font-family: 'italic', sans-serif;
-    font-weight: 800;
+    font-weight: 400;
     line-height: 140%;
-    text-transform: uppercase;
+    margin: 21px 92px
+    
+}
+.compan h3 {
+    margin:0  260px;
+    color: white;
+}
+.p22{
+    margin: -22px 391px;
+    color: white;
+}
+.p33{
+    margin: 35px 391px;
+    color: white;
+    font-size: 10px;
+}
+.menu4  {
+float: left;
+margin: 20px 63px;
+}
+.menu5{
+    color: #003B77;
+    font-size: 50px;
+}
+.cont h4{
+    font-size: 22px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 140%;
+    margin: 0 200px
 }
