@@ -49,6 +49,7 @@ li {
 .trusk{
     background: url('tr.XXL.png') 0 180px no-repeat ;
     background-size: cover;
+    height: 700px;
 }
 h2{
     white-space: pre;
@@ -87,4 +88,72 @@ margin: 20px 63px;
     font-weight: 500;
     line-height: 140%;
     margin: 0 200px
+}
+.burn h5{
+    margin: 135px 206px;
+    font-size: 52px;
+    font-family: Montserrat;
+    line-height: 140%;
+}
+.p44{
+    margin:-146px 310px;
+    font-size: 24px;
+    font-family: Montserrat;
+    line-height: 140%;
+}
+.maps{
+        margin: 190px 0px;
+}
+.but2{
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 140%;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    margin: 0 141px;
+}
+.galer{
+    background: url('foto2.png');
+    height: 600px;
+}
+.titl2{
+    width: 900px;
+    margin: -60px 206px;
+}
+.cont h5
+{
+    margin:84px 216px;
+    color: white;
+    font-size: 52px;
+    font-family: Montserrat;
+    line-height: 140%;
+}
+.p55{
+    font-size: 24px;
+    font-family: Montserrat;
+    line-height: 140%;
+    color: white;
+    margin: -61px 333px;;
+}
+.foto12{
+    width: 300px;
+    height:200px;
+    margin: -367px 13px;
+}
+.foto13{
+    width: 300px;
+    height:200px;
+    margin: -367px  138px;
+}
+.foto14{
+    width: 300px;
+    height:200px;
+    margin: -367px 0;
+}
+.cont h6{
+    font-size: 52px;
+    font-family: Montserrat;
+    line-height: 140%;
+    margin: 0px 210px;
 }
