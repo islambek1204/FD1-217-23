@@ -1,0 +1,18 @@
+body>div>ul>li:first-of-type>a {
+color:red;
+}
+body>div>ul>li:nth-child(2)>span>a{
+    color: green;
+}
+body>div>ul>li:last-of-type>em>a{
+    color: blue;
+}
+body>div>p>em>a{
+    color:yellow;
+}
+body>div>span>em>a{
+    color:black;
+}
+div>ul>li:nth-child(1)>a{
+    color:orange;
+}
