@@ -1,4 +1,4 @@
-body>div>ul>li:first-of-type>a {
+body>div>ul>li:nth-child(1)>a {
 color:red;
 }
 body>div>ul>li:nth-child(2)>span>a{
@@ -13,6 +13,6 @@ body>div>p>em>a{
 body>div>span>em>a{
     color:black;
 }
-div>ul>li:nth-child(1)>a{
+body>div>p>span>ul>li:nth-child(1)>a{
     color:orange;
-}
+}obk;
