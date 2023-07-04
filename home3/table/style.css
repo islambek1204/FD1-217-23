@@ -1,0 +1,32 @@
+@import{
+    .menu{
+        background-color: red; float: left ; width: 200px; height:300px;
+    }
+}
+
+
+
+.clearfix:after{
+    content:"" ;
+    display:block ;
+    clear: both;
+}
+.header{
+    background-color: green; height: 50px;
+}
+.bolt{
+    background-color: chartreuse;
+}
+.content{
+    background-color: hotpink ;margin: 0 200px;
+}
+.menu{
+    background-color: khaki; float: left ; width: 200px; height:300px; 
+}
+.baner{
+    background-color: lightcoral; float: right ; width: 200px; height:300px; 
+}
+.footer{
+    background-color: red;
+    clear: both;
+}
