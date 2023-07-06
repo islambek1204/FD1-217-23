@@ -1,0 +1,15 @@
+.fiel{
+    border: solid red 2px;
+}
+imya{
+    float: left;
+}
+telefon{
+    float: left;
+}
+.email{
+    float: left;
+}
+info{
+    display: block;
+}
