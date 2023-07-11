@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.lakers{
+    position: relative;
+}
+.lak1{
+    position:absolute;
+}
+.lak2{
+    position:absolute;
+}
+.lak3{
+    position:absolute;
+    top: 20px;
+}
