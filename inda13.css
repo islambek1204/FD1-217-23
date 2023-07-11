@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    width: 1450px;
+    margin: 0 auto;   
+}
+body{
+    background-color: chartreuse;
+}
+.content h1{
+    text-align: center;
+}
+.home1{
+    text-align: center;
+   /* border: solid 4px yellow; */
+}
