@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.table td {
+    border-right: solid 2px red;
+    padding: 10px;
+}
+.pon{
+    float: left;
+    border-right: solid 2px red;
+    padding: 10px;
+}
+.wto{
+    float: left;
+    border-right: solid 2px red;
+    padding: 10px;
+}
+.sre{
+    float: left;
+    border-right: solid 2px red;
+    padding: 10px;
+}
+.chet{
+    float: left;
+    border-right: solid 2px red;
+    padding: 10px;
+}
+.piy{
+    float: left;
+    border-right: solid 2px red;
+    padding: 10px;
+}
+.blok div{
+   display: inline;
+}
+div{
+    margin-bottom: 20px;
+}
+.blok a{
+    padding-right: 0;
+}
+a{
+    color: green;
+    padding: 5px 10px 10px 10px;
+    
+}
+.divline{
+    margin: 15px;
+}
+.blok a::after{
+  content: url(foto.png);
+  height: 10px;
+  width: 5px;
+}
+

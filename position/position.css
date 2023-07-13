@@ -3,16 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+.lakers:hover .lak1{
+    top:169px;
+    transition: 3s;
+}
+.lakers:hover .lak3{
+    top:0px;
+    transition: 2s;
+}
 .lakers{
     position: relative;
 }
 .lak1{
     position:absolute;
+    top: 25px;
+    left: 6px;
 }
 .lak2{
     position:absolute;
+    top:170px;
+    width: 360px;   
+    left: 3px; 
 }
 .lak3{
     position:absolute;
-    top: 20px;
+    top: 120px;
+    width: 409px;
+    left: -24px;
 }
