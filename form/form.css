@@ -1,15 +1,23 @@
-.fiel{
-    border: solid red 2px;
+*{
+    box-sizing: border-box;
 }
-imya{
-    float: left;
+label{
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
 }
-telefon{
-    float: left;
+select {
+    width: 170px;
 }
-.email{
-    float: left;
+input[type=submit] {
+    width: 180px;
+    padding: 10px;
 }
-info{
-    display: block;
+fieldset {
+    margin-bottom: 20px;
+}
+body {
+    max-width: 600px;
+    margin: 0 auto;
 }

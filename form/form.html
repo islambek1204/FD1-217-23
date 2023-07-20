@@ -3,43 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
    <link rel="stylesheet" href="form.css">
-    <title>Document</title>
+    <title>form</title>
 </head>
 <body>
-    <form method="post"  action="">
-<fieldset class="fiel" >
-    <legend class="info" > Контакная информация</legend>
-     <label class="imya" for=""> Имя  <input type="text" name="name" >  </label> <br> <br>
-     <label class="telefon" for=""> Тeлефон <input type="text" name="name" >  </label> <br> <br>    
-     <label class="email" for=""> Email<input type="text" name="name" >  </label> <br>  <br>
-     
+    <form method="post"  action="https://fe.it-academy.by/TestForm.php">
+ 
+        <h1>Форма заявки на работу в зоопарке</h1>
+        <p>Пожалуйста,заполните форму.Обязательые поля помеченыи<b>*</b></p>
+    <fieldset> <legend>Контактная информация </legend>
+        <label for="name" >Имя<b>*</b></label>
+        <input type="text" id="name" name="name"> <br>
+        <label for="phone">Телефон </label>
+        <input type="text" id="phone" name="name"> <br>
+        <label for="email">Email<b>*</b> </label>
+        <input type="text" name="name" id="email">
+        <br>
     </fieldset>
-        <fieldset class="fiel" >
-            <legend> Персональная информация</legend>
-             <label for=""> Возраст <input type="text" name="name" >  </label> <br> <br>
-              <label for=""> Пол
-                 <select name="pol" >
-                 <option value="1">мужщина </option>
-                 <option value="1">Женщина</option>
-             </select>
-              </label> <br>
-             <label for=""> Перечислите <br> личные <br> качества
-            <textarea name="name" id="" cols="30" rows="10">
-                       
-
-
-
-             </textarea>
-             </label> 
-             </fieldset>
-               
-             <fieldset>
-             <legend>выбирите ваших любимых животных</legend>
-             <input type="" name="onlynew" value="1" >
-
-              </fieldset>
-            </form>
-</body>
+    <fieldset> <legend>Персональная информация</legend>
+        <label for="age">Возраст<b>*</b></label>
+        <input type="text" id="age" name="age"> <br>
+        <label for="gender">Пол</label>
+        <select name="gender" id="gender">
+        <option value="female">Женщина</option>
+        <option value="male">Мужчина</option>
+        </select>
+        <br>
+        <label for="comend">Перечислите личные качества</label>    
+        <textarea name="comend" id="name" cols="20" rows="5"> </textarea>
+    </fieldset>
+    <fieldset>
+        <legend>Выберите ваших любимых животных</legend>
+        <label for="wyl1"><input type="checkbox" name="zebra" value="true" id="wyl1">Зебра</label>
+        <label for="wyl2"><input type="checkbox" name="koshak" value="true" id="wyl2">Кошак</label>
+        <label for="wyl3"><input type="checkbox" name="anakonda" value="true" id="wyl3">Анаконда</label>
+        <label for="wyl4"><input type="checkbox" name="chelowek" value="true" id="wyl4">Человек</label>
+        <label for="wyl5"><input type="checkbox" name="slon" value="true" id="wyl5">Слон</label>
+        <label for="wyl6"><input type="checkbox" name="antilopa" value="true" id="wyl6">Антилопа</label>
+        <label for="wyl7"><input type="checkbox" name="golub" value="true" id="wyl7">Голубь</label>
+        <label for="wyl8"><input type="checkbox" name="krab" value="true" id="wyl8">Краб</label>      
+    </fieldset>
+      <input type="submit" value="Отправить информацию">
+    </form>
 </html>

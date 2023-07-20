@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content:"";
+    display: block;
+    background-color: rgb(7, 125, 228);
+    clear: both;
+}
+.container{
+    width: 1450px;
+    margin: 0 auto;
+}
+.menu{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+}
+.content{
+    background-color: yellow;
+    height: 200px;
+}
+.banner{
+   
+    width: 200px;
+    height: 200px;
+    background-color: rgb(8, 243, 16);
+    float: right;
+}
+.header{
+    background-color: gold;
+    height: 50px;
+
+}
+.infor{
+    background-color: rgb(3, 3, 3);
+    height: 50px;
+    color: red;
+}
+.container div{
+    text-align: center;
+}
