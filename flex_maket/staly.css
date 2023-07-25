@@ -1,5 +1,5 @@
 .container {
-  width: 1100px;
+  width: 1296px;
   margin: 0 auto; }
   .container * {
     margin: 0;
@@ -45,8 +45,9 @@
       width: 870px; }
 
 .slider {
-  background: url(img/sliden.png);
-  height: 700px; }
+  background: url(img/sliden.png), lightgray 50%/cover no-repeat;
+  height: 700px;
+  margin-top: 20px; }
   .slider .container {
     display: flex;
     flex-direction: column; }
@@ -56,11 +57,185 @@
       font-size: 40px;
       font-style: normal;
       font-weight: 800;
-      line-height: 140%; }
+      line-height: 140%;
+      margin-top: 100px;
+      background: rgba(0, 0, 0, 0.3);
+      width: 500px;
+      height: 280px; }
     .slider .container .podrobna {
       background-color: #EC1B2E;
       padding: 15px 30px;
       align-items: flex-start;
-      gap: 10px; }
+      gap: 10px;
+      width: 250px;
+      color: white;
+      margin: 25px -2px; }
+
+.container .wrap {
+  position: relative; }
+.container .border {
+  border: 10px solid var(--accent, #EC1B2E);
+  width: 720px;
+  height: 405px;
+  margin-top: 150px; }
+.container .school {
+  color: var(--black, #333);
+  font-family: Circe;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140%;
+  /* 25.2px */
+  letter-spacing: 0.48px;
+  position: absolute;
+  top: 962px;
+  left: 197px;
+  background: white; }
+.container .school1 {
+  color: var(--black, #333);
+  font-family: Circe;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 25.2px */
+  width: 465px;
+  position: absolute;
+  top: 105px;
+  left: 55px; }
+.container .school3 img {
+  width: 500px;
+  position: absolute;
+  right: -616px;
+  top: -2px;
+  fill: #000; }
+
+.container .pp {
+  color: var(--black, #333);
+  text-align: center;
+  /* heading/h2 */
+  font-family: Circe;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140%;
+  /* 67.2px */
+  letter-spacing: 0.48px;
+  margin: 40px; }
+.container .item {
+  display: flex;
+  padding: 12px 20px;
+  justify-content: space-between;
+  width: 600px;
+  height: 50px; }
+.container .item1 {
+  width: 130px;
+  height: 50px;
+  background: var(--accent, #EC1B2E);
+  color: var(--white, #FFF);
+  text-align: center;
+  /* p/16r */
+  font-family: Circe;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 22.4px */ }
+
+.container .kurs {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px; }
+.container .turs {
+  color: var(--black, #333);
+  text-align: center;
+  /* heading/h3 */
+  font-family: Circe;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 33.6px */ }
+.container .turs1 {
+  color: var(--accent, #EC1B2E);
+  text-align: center;
+  /* heading/h3 */
+  font-family: Circe;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 33.6px */ }
+
+.container .grup ul {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(51, 51, 51, 0.05);
+  width: 1076px;
+  height: 40px;
+  color: var(--black, #333);
+  /* heading/h4 */
+  font-family: Circe;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 28px */ }
+.container .grup1 ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1076px;
+  color: var(--black, #333);
+  /* p/18r */
+  font-family: Circe;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 25.2px */ }
+
+.container .exam {
+  display: flex;
+  justify-content: space-between;
+  width: 306px;
+  height: 585px;
+  flex-shrink: 0; }
+.container .exam img {
+  width: 306px;
+  height: 200px; }
+.container .pp1 {
+  color: var(--black, #333);
+  text-align: center;
+  /* heading/h2 */
+  font-family: Circe;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140%;
+  /* 67.2px */
+  letter-spacing: 0.48px;
+  margin: 50px; }
+.container .examp {
+  color: var(--black, #333);
+  text-align: center;
+  /* heading/h3 */
+  font-family: Circe;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 33.6px */
+  width: 266px;
+  height: 68px; }
+.container .examp1 {
+  color: var(--black, #333);
+  font-family: Circe;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 22.4px */
+  width: 266px;
+  height: 166px; }
 
 /*# sourceMappingURL=staly.css.map */
