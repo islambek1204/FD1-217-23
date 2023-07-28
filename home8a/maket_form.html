@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form_maket</title>
     <style>
+@media all and (max-width: 700px){
+ fieldset{
+    width: 500px;
+    height: 450px;
+ }
+    .container{
+    width: 600px;
+    margin: 0 auto;
+ }
+}
 *{
         margin: 0;
         padding: 0;
@@ -13,23 +23,22 @@
         font-family: Arial;
         font-size: 14px;
 }
-form{
-        padding: 30px;
-        min-width: 260px;
-}
-body{
-     
 
+.container{
+    width: 1000px;
+    margin: 0 auto;
 }
-h1{
-    padding-bottom: 15px;
+fieldset{ 
+    padding: 30px 30px 30px 30px;
+    line-height: 170%;
 }
     </style>
 </head>
 <body>
-    <form action="https://fe.it-academy.by/TestForm.php" method="post">
-        <h1>Для публикации вашей статьи заполните,пожалуйста,следующую форму</h1>
+    <div class="container">
+         <form action="https://fe.it-academy.by/TestForm.php" method="post">
     <fieldset  >
+        <h1>Для публикации вашей статьи заполните,пожалуйста,следующую форму</h1>
         <label for="name">Название статьи</label>
         <input type="text" name="statya"> <br>
         <label for="rubrika">Рубрика:</label>
@@ -49,6 +58,8 @@ h1{
          <button type="submit">Опубликовать</button>
     </fieldset>
     </form>
+    </div>
+   
     
 </body>
 </html>
