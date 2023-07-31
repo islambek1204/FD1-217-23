@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: aqua;
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.bottom{
+    background-color: aqua;
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu{
+    float: left;
+    width: 241px;
+    background: #F0E68C;
+    padding: 25px;}
+img
+{
+   float: left; 
+   padding: 0px 18px;
+}
+
+.img{
+    clear:both ;
+}
+h2{
+    text-align: center;
+    padding: 18px 0;
+}
+.cont{
+    background-image: url('fotbol2.png') right top repeat-x ;
+    margin: 0 0 0 266px;
+}
+.fixid{
+    width: 100px;
+    height: 65px;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid blue;
+    background-color: green;
+    color: white;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
