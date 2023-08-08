@@ -76,3 +76,33 @@ h1{
     from { background-position: -800px 0; }
     to { background-position: 0 800px; }
   }
+  .containerp{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    justify-content: flex-end;
+  }
+   @keyframes panda{
+        from {background: url(img/smur.webp) 0px 0px ; }
+        to {background: url(img/smur.webp)-480px 0px ; }
+   }
+   @keyframes panda2{
+        100%{
+            left: 490px;
+        }
+   }
+  .panda{
+    width: 28px;
+    height: 52px;
+    animation: panda 2s steps(16) infinite,
+             panda2 8s  infinite;
+            position: absolute;
+            left: 0;
+  }
+
+ 
+         
+  
+   
+ 

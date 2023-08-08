@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+body h1{
+    font-size:30px;font-weight: bold;
+}
+body p:nth-child(1){
+    color:green;
+}
+body p:nth-child(2){
+    color:red;
+}
+body p:nth-child(3){
+    color:blue;
+}
+.chees::before{
+    content: url('extref.png');
+    margin-right: 5px;
+}
+.chees{
+    color: blue;font-weight: bold;
+}
+body p:nth-child(5){
+    color:rgb(0, 166, 255);
+}

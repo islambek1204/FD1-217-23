@@ -1,0 +1,4 @@
+[href^="https://"] {
+    padding-left: 12px;
+    background: url('extref.png') url('extref.png')0 5px no-repeat;
+}
