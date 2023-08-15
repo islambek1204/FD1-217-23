@@ -17,7 +17,11 @@ a{
     justify-content: space-around;
     align-items: center;
     height: 50px;
-}
+    margin: 50px;
+    border: 2px solid;
+    border-radius: 12px;
+    background-color: #EAF2F5;
+    }
 .menu{
     display: flex;
     gap: 0 40px;
@@ -25,12 +29,15 @@ a{
     align-items: center;
 }
 .back{
-    background-color: #80ccf8;
+    background-color: #EAF2F5;
     width: 1400px;
     height: 550px;
+    margin-top: 50px;
 }
 .container{
-   
+    .school1{
+        display: flex;
+    }
     .school p:nth-child(1){
         padding-top: 89px;
         width: 638px;
@@ -79,18 +86,25 @@ a{
         line-height: 96.688%; /* 19.338px */
         letter-spacing: -0.6px;
 }
-.svg1{
-    position: absolute;
-    right: 540px;
-    top: 535px;
-    width: 13px;
-    height: 10px;
-    transform: rotate(3deg);
-    flex-shrink: 0;
-    stroke-width: 2px;
-    stroke: #22253B;
+.img1fon{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 150px;
 }
 .school{
     position: relative;
 }
+}
+.container{
+    h1{
+color: #22253B;
+text-align: center;
+font-family: Gilroy SemiBold;
+font-size: 46px;
+font-style: normal;
+font-weight: 600;
+line-height: 46px; /* 100% */
+margin-top: 40px;
+    }
 }
