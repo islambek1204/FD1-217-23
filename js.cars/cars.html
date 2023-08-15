@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9", crossorigin="anonymous">
+  </head>
+  <body>
+    <button onclick="phone12()">Phone</button>
+
+     <div id="app"></div>
+
+    <script> src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js", integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm", crossorigin="anonymous"></script>
+     
+     <script>
+
+       var phone =[
+        {
+        brand:"apple",
+        model:"7",
+        year:"2016",
+        imgUrl:"https://www.ixbt.com/td/iphone-7-test/iphone-7-test-6.jpg"
+        },
+        {
+        brand:"samsung",
+        model:"s20",
+        year:"2018",
+        imgUrl:"https://m.media-amazon.com/images/I/51Fiz9bexHL.jpg"
+        },
+        {
+        brand:"nokia",
+        model:"3110",
+        year:"2014",
+        imgUrl:"https://cdnn21.img.ria.ru/images/149445/73/1494457328_499:0:2547:2048_1920x0_80_0_0_e13049b0a52cebc311b9bfd58d369745.jpg"
+        },
+    ]
+    var app = document.getElementById('app');
+    function phone12(){
+        var phoneHtml = "";
+
+        for(var i=0; i<phone.length; i++){
+
+            phoneHtml+= `
+            <div class="card" style="width: 18rem;">
+  <img src="${phone[i.imgUrl]}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h2 class="card-title">${phone[i].brand}</h2>
+    <h3 class="card-title">${phone[i].model}</h3>
+    <h4 class="card-title">${phone[i].year}</h4>
+  </div>
+</div>
+`
+        }
+        app.innerHTML = phoneHtmlp;
+    }
+    </script> 
+</body>
+</html>
