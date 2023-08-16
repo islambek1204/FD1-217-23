@@ -8,13 +8,15 @@
     margin: 0 auto;   
 }
 body{
-    background-color: chartreuse;
+    background-color:white;
 }
 .content h1{
     text-align: center;
+    padding: 20px;
 }
+
 .home1{
+    border-bottom: solid 4px yellow;
+    font-size: 40px;
     text-align: center;
-   /* border: solid 4px yellow; */
-   font-size: 40px;
 }

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <style>
+        #app{
+            display: flex;
+            width: 1000px;
+            margin: 0 auto;
+            flex-flow: wrap;
+            justify-content: space-between;
+
+        }
+        #app > div{
+            margin-bottom: 20px;
+            transition: 0.5s;
+        }
+        #app > div:hover{
+            transform: scale(1.1);
+            z-index: 999;
+        }
+    </style>
+
+
+    <title>Document</title>
+</head>
+<body>
+
+     <button onclick="render()">render cars</button>
+
+    <div id="app"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script>
+
+        var cars = [
+            {
+                brand: "bmw",
+                model: "x5",
+                year: "2018",
+                isAuction: true,
+                imgUrl:"https://avatars.mds.yandex.net/get-verba/3587101/2a00000186371facfbe93727d461bd1c4381/cattouchret"
+            },
+            {
+                brand: "mers",
+                model: "GLE",
+                year: "2018",
+                isAuction: false,
+                imgUrl:"https://i.gaw.to/vehicles/photos/40/23/402337-2021-mercedes-benz-gle.jpg?1024x640"
+            },
+            {
+                brand: "audi",
+                model: "RS6",
+                year: "2020",
+                isAuction: true,
+                imgUrl:"https://avatars.mds.yandex.net/get-verba/1535139/2a0000016e6f6e476eb24bffe8980ddc7534/cattouchret"
+            },
+            {
+                brand: "audi",
+                model: "RS6",
+                year: "2020",
+                isAuction: true,
+                imgUrl:"https://avatars.mds.yandex.net/get-verba/1535139/2a0000016e6f6e476eb24bffe8980ddc7534/cattouchret"
+            },
+            {
+                brand: "audi",
+                model: "RS6",
+                year: "2020",
+                isAuction: true,
+                imgUrl:"https://avatars.mds.yandex.net/get-verba/1535139/2a0000016e6f6e476eb24bffe8980ddc7534/cattouchret"
+            },
+            {
+                brand: "audi",
+                model: "RS6",
+                year: "2020",
+                isAuction: true,
+                imgUrl:"https://avatars.mds.yandex.net/get-verba/1535139/2a0000016e6f6e476eb24bffe8980ddc7534/cattouchret"
+            },
+            {
+                brand: "audi",
+                model: "RS6",
+                year: "2020",
+                isAuction: true,
+                imgUrl:"https://avatars.mds.yandex.net/get-verba/1535139/2a0000016e6f6e476eb24bffe8980ddc7534/cattouchret"
+            },
+            {
+                brand: "audi",
+                model: "RS6",
+                year: "2020",
+                isAuction: true,
+                imgUrl:"https://avatars.mds.yandex.net/get-verba/1535139/2a0000016e6f6e476eb24bffe8980ddc7534/cattouchret"
+            },
+            {
+                brand: "audi",
+                model: "RS6",
+                year: "2020",
+                isAuction: true,
+                imgUrl:"https://avatars.mds.yandex.net/get-verba/1535139/2a0000016e6f6e476eb24bffe8980ddc7534/cattouchret"
+            },
+            {
+                brand: "audi",
+                model: "RS6",
+                year: "2020",
+                isAuction: true,
+                imgUrl:"https://avatars.mds.yandex.net/get-verba/1535139/2a0000016e6f6e476eb24bffe8980ddc7534/cattouchret"
+            },
+            {
+                brand: "audi",
+                model: "RS6",
+                year: "2020",
+                isAuction: true,
+                imgUrl:"https://avatars.mds.yandex.net/get-verba/1535139/2a0000016e6f6e476eb24bffe8980ddc7534/cattouchret"
+            },
+            {
+                brand: "audi",
+                model: "RS6",
+                year: "2020",
+                isAuction: true,
+                imgUrl:"https://avatars.mds.yandex.net/get-verba/1535139/2a0000016e6f6e476eb24bffe8980ddc7534/cattouchret"
+            }
+        ]
+
+        var app = document.getElementById("app");
+
+        function render(){
+            var carsHtml = "";
+
+            for(var i=0; i<cars.length; i++){
+                carsHtml+=`
+                <div class="card" style="width: 18rem;">
+                    <img src="${cars[i].imgUrl}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">${cars[i].brand}</h3>
+                        <h4 class="card-title">${cars[i].model}</h4>
+                        <h5 class="card-title">${cars[i].year}</h5>
+                        ${cars[i].isAuction ? `<h5 class='card-title'>isAuction</h5>`: ""}
+                    </div>
+                </div>
+                `
+            }
+
+
+            app.innerHTML = carsHtml;
+        }
+
+    </script>
+
+
+</body>
+</html>
