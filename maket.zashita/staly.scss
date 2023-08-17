@@ -12,8 +12,9 @@
     width: 1920px;
     height: 950px;
     flex-shrink: 0;
-    background:url('img/slayder.png') ;
-
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.45) 100%), url('../maket.zashita/img/slayder.png'), lightgray 0px -148.037px / 100% 151.579% no-repeat;
+    margin: 0 auto; 
+}
 .container{
     width: 1420px;
     margin: 0 auto;
@@ -94,7 +95,6 @@
         background-color: #DD2A1B;
         border-radius: 40px;
     }
-}
 }
 .container{
     .spisk{
@@ -197,7 +197,7 @@
         height: 299px;
         flex-shrink: 0;        
         border-radius: 25px;
-        background: url('imgcard/card1.png'), lightgray -4.536px -2.121px / 101.93% 101.891% no-repeat;
+        background: url('../maket.zashita/imgcard/card1.png'), lightgray -4.536px -2.121px / 101.93% 101.891% no-repeat;
     }
 }
 .container{
@@ -272,7 +272,7 @@
         height: 398px;
         flex-shrink: 0;
         border-radius: 64px 6px;
-        background: url('../maket.zashita/imgzprawka/Rectangle.png'), lightgray 50% / cover no-repeat;        
+        background: url('../maket.zashita/imgzprawka/Rectangle1.png'), lightgray 50% / cover no-repeat;        
     }
     .maps{
         display: flex;
@@ -299,5 +299,57 @@
         flex-shrink: 0;
         border-radius: 15px;
         background: url('../maket.zashita/imgvideo/Rectangle.png'), lightgray 50% / cover no-repeat; 
+    }
+}
+.container{
+    .items{
+        display: flex;
+        justify-content: space-around;
+        padding-top:30px;
+    }
+    .img_item1{
+        border-radius: 15px;
+        background: url('../maket.zashita/fotofotr/foto.png');
+        width: 703px;
+        height: 464px;
+        flex-shrink: 0;
+    }
+    .img_item{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) ;
+        gap: 20px;
+        padding-top: 195px;
+    }
+}
+.footer{
+        background: #000061;
+        height: 542px;
+        flex-shrink: 0;
+        margin-top: 30px;
+}
+.container{
+    .text1{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .text2{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .ul_items{
+        color: rgb(216, 206, 206);
+    }
+    .ul_items {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 100px;    
     }
 }
