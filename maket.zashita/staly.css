@@ -135,6 +135,7 @@
 .container .bonusy {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin-top: 215px; }
 .container .bonus {
   width: 702px;
@@ -162,6 +163,14 @@
   border: 1px solid #0000DE;
   text-align: center;
   padding: 25px; }
+.container .podrobna a {
+  color: #0000DE;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 153.4%;
+  /* 30.68px */ }
 .container .card {
   width: 470px;
   height: 299px;
@@ -201,5 +210,60 @@
   font-weight: 400;
   line-height: 153.4%;
   /* 30.68px */ }
+
+.container .minsk p:nth-child(1) {
+  color: #060628;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 20px; }
+.container .minsk p:nth-child(2) {
+  width: 588px;
+  color: #060628;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 153.4%;
+  /* 30.68px */
+  padding-bottom: 40px; }
+.container .minsk a {
+  color: #0000DE;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 153.4%;
+  /* 30.68px */ }
+.container .grodno {
+  width: 702px;
+  height: 398px;
+  flex-shrink: 0;
+  border-radius: 64px 6px;
+  background: url("../maket.zashita/imgzprawka/Rectangle.png"), lightgray 50%/cover no-repeat; }
+.container .maps {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px; }
+
+.container h2 {
+  color: #060628;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  margin-top: 110px;
+  margin-bottom: 50px; }
+.container .video {
+  width: 1420px;
+  height: 771px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: url("../maket.zashita/imgvideo/Rectangle.png"), lightgray 50%/cover no-repeat; }
 
 /*# sourceMappingURL=staly.css.map */
