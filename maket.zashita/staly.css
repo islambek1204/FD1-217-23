@@ -2,92 +2,90 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style-type: none; }
+  list-style-type: none;
+  text-decoration: none; }
 
 .container {
   width: 1420px;
   margin: 0 auto; }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../maket.zashita/fonts/Montserrat-Light.ttf"); }
+body {
+  font-family: 'Montserrat',sans-serif; }
 
 .slayder {
   width: 1920px;
   height: 950px;
   flex-shrink: 0;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.45) 100%), url("../maket.zashita/img/slayder.png"), lightgray 0px -148.037px/100% 151.579% no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.45) 100%), url("../maket.zashita/img_slayd/slayder.png"), lightgray 0px -148.037px/100% 151.579% no-repeat;
   margin: 0 auto; }
 
-.container {
-  width: 1420px;
-  margin: 0 auto; }
-  .container .header ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    padding-top: 45px;
-    color: var(--grayscale-white, #FFF);
-    font-family: Aeroport;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%;
-    /* 25.6px */ }
-  .container .header ul a {
-    width: 226px;
-    height: 50px;
-    flex-shrink: 0;
-    border-radius: 15px;
-    border: 1px solid #0000DE;
-    background: #0000DE; }
-  .container .header ul a p {
-    text-align: center;
-    padding: 10px;
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 153.4%;
-    /* 24.544px */
-    border-bottom: 1 px solid; }
-  .container .refill {
-    display: grid;
-    justify-content: end;
-    grid-column-gap: 50px;
-    grid-row-gap: 20px; }
-  .container .refill p {
-    color: var(--grayscale-white, #FFF);
-    font-family: Montserrat;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 20px 22px; }
-  .container .refill p:nth-child(2) {
-    color: var(--grayscale-white, #FFF);
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%;
-    /* 25.6px */ }
-  .container .krosnadar {
-    width: 224px;
-    height: 115px;
-    flex-shrink: 0;
-    border-radius: 15px;
-    background: #0000DE;
-    margin-top: 95px; }
-  .container .person {
-    width: 224px;
-    height: 115px;
-    flex-shrink: 0;
-    border-radius: 15px;
-    border: 1px solid rgba(255, 255, 255, 0.5); }
-  .container .knopka {
-    width: 180px;
-    height: 160px;
-    flex-shrink: 0;
-    background-color: #DD2A1B;
-    border-radius: 40px; }
+.container .header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding-top: 45px;
+  color: #FFF;
+  font-size: 16px;
+  border-bottom: 1px solid; }
+.container .header ul a {
+  width: 226px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid #0000DE;
+  background: #0000DE; }
+.container .header ul a p {
+  text-align: center;
+  padding: 10px;
+  color: #FFF;
+  font-size: 16px; }
+.container b {
+  font-size: 30px; }
+.container .icon1 {
+  margin-left: 25px; }
+.container .icon {
+  margin-left: 92px; }
+.container .icon2 {
+  margin-left: 56px; }
+.container .icon3 {
+  margin-left: 48px; }
+.container .refill {
+  display: grid;
+  justify-content: end;
+  grid-column-gap: 50px;
+  grid-row-gap: 20px; }
+.container .refill p {
+  color: #FFF;
+  font-size: 36px;
+  margin: 20px 22px; }
+.container .refill p:nth-child(2) {
+  color: #FFF;
+  font-size: 16px; }
+.container .krosnadar {
+  width: 224px;
+  height: 115px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #0000DE;
+  margin-top: 95px; }
+.container .person {
+  width: 224px;
+  height: 115px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.5); }
+.container .knopka {
+  width: 180px;
+  height: 160px;
+  flex-shrink: 0;
+  background-color: #DD2A1B;
+  border-radius: 40px;
+  color: #FFF;
+  font-size: 36px;
+  margin: 20px 22px; }
 
 .container .spisk {
   display: flex;
@@ -96,9 +94,8 @@
   width: 344px;
   height: 272px;
   flex-shrink: 0;
-  border: 1px red solid;
   border-radius: 15px;
-  background: #FAFAFA;
+  background: #faf5f5;
   text-align: center; }
 .container .azc img {
   width: 50px;
@@ -107,37 +104,23 @@
   margin-top: 47px; }
 .container h1 {
   color: #060628;
-  font-family: Montserrat;
   font-size: 64px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 107.7%;
-  /* 68.928px */
   text-align: center;
   margin-top: 80px;
   margin-bottom: 30px; }
 .container .azc1 {
   color: #060628;
   text-align: center;
-  font-family: Montserrat;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
   padding-bottom: 20px; }
 .container .azc2 {
   color: #060628;
   text-align: center;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal; }
+  font-size: 16px; }
 
 .container .bonusy {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
   margin-top: 215px; }
 .container .bonus {
   width: 702px;
@@ -145,19 +128,10 @@
   flex-shrink: 0; }
 .container .bonus p:nth-child(1) {
   color: #060628;
-  font-family: Montserrat;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal; }
+  font-size: 36px; }
 .container .bonus p:nth-child(2) {
   color: #060628;
-  font-family: Montserrat;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 153.4%;
-  /* 30.68px */ }
+  font-size: 20px; }
 .container .podrobna {
   width: 340px;
   height: 80px;
@@ -167,22 +141,17 @@
   padding: 25px; }
 .container .podrobna a {
   color: #0000DE;
-  font-family: Montserrat;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 153.4%;
-  /* 30.68px */ }
+  font-size: 20px; }
 .container .card {
   width: 470px;
-  height: 299px;
+  height: 300px;
   flex-shrink: 0;
   border-radius: 25px;
-  background: url("../maket.zashita/imgcard/card1.png"), lightgray -4.536px -2.121px/101.93% 101.891% no-repeat; }
+  background: url("../maket.zashita/imgcard/card1.png"), lightgray no-repeat; }
 
 .container .neft {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   position: relative;
   margin-top: 80px; }
 .container .set {
@@ -193,52 +162,29 @@
   background: #0000DE; }
 .container .set img {
   position: absolute;
-  bottom: 9px;
-  left: 195px; }
+  bottom: 7px;
+  left: 86px; }
 .container .pril {
   width: 500px; }
 .container .pril p:nth-child(1) {
   color: #060628;
-  font-family: Montserrat;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal; }
+  font-size: 36px; }
 .container .pril p:nth-child(2) {
   color: #060628;
-  font-family: Montserrat;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 153.4%;
-  /* 30.68px */ }
+  font-size: 20px; }
 
 .container .minsk p:nth-child(1) {
   color: #060628;
-  font-family: Montserrat;
   font-size: 36px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
   padding-bottom: 20px; }
 .container .minsk p:nth-child(2) {
   width: 588px;
   color: #060628;
-  font-family: Montserrat;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 153.4%;
-  /* 30.68px */
   padding-bottom: 40px; }
 .container .minsk a {
   color: #0000DE;
-  font-family: Montserrat;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 153.4%;
-  /* 30.68px */ }
+  font-size: 20px; }
 .container .grodno {
   width: 702px;
   height: 398px;
@@ -253,11 +199,7 @@
 
 .container h2 {
   color: #060628;
-  font-family: Montserrat;
   font-size: 36px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
   text-align: center;
   margin-top: 110px;
   margin-bottom: 50px; }
@@ -270,11 +212,11 @@
 
 .container .items {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 30px; }
 .container .img_item1 {
   border-radius: 15px;
-  background: url("../maket.zashita/fotofotr/foto.png");
+  background: url("../maket.zashita/img_footr/foto.png");
   width: 703px;
   height: 464px;
   flex-shrink: 0; }
@@ -292,18 +234,10 @@
 
 .container .text1 {
   color: #FFF;
-  font-family: Montserrat;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal; }
+  font-size: 24px; }
 .container .text2 {
   color: #FFF;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal; }
+  font-size: 16px; }
 .container .ul_items {
   color: #d8cece; }
 .container .ul_items {

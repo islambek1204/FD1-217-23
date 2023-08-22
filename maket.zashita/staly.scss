@@ -3,32 +3,35 @@
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
+    text-decoration: none;
 }
 .container{
     width: 1420px;
-    margin: 0 auto;   
+    margin: 0 auto;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src:url('../maket.zashita/fonts/Montserrat-Light.ttf');
+}
+body{
+    font-family:'Montserrat',sans-serif;
 }
 .slayder{
     width: 1920px;
     height: 950px;
     flex-shrink: 0;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.45) 100%), url('../maket.zashita/img/slayder.png'), lightgray 0px -148.037px / 100% 151.579% no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.45) 100%), url('../maket.zashita/img_slayd/slayder.png'), lightgray 0px -148.037px / 100% 151.579% no-repeat;
     margin: 0 auto; 
 }
 .container{
-    width: 1420px;
-    margin: 0 auto;
     .header ul{
         display: flex;
         justify-content: space-around;
         align-items: flex-end;
         padding-top: 45px;
-        color: var(--grayscale-white, #FFF);
-        font-family: Aeroport;
+        color:  #FFF;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 160%; /* 25.6px */
+        border-bottom:1px solid;
     }
     .header ul a{
         width: 226px;
@@ -42,12 +45,22 @@
         text-align: center;
         padding: 10px;
         color: #FFF;
-        font-family: Montserrat;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 153.4%; /* 24.544px */
-        border-bottom: 1 px solid;
+    }
+    b{
+        font-size: 30px;
+    }
+    .icon1 {
+        margin-left: 25px;
+    }
+    .icon{
+        margin-left: 92px;
+    }
+    .icon2{
+        margin-left: 56px;
+    }
+    .icon3{
+        margin-left: 48px;
     }
     .refill{
         display:grid ;
@@ -56,21 +69,13 @@
         grid-row-gap: 20px
     }
     .refill p{
-        color: var(--grayscale-white, #FFF);
-        font-family: Montserrat;
+        color:  #FFF;
         font-size: 36px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
         margin: 20px 22px;
     }
     .refill p:nth-child(2){
-        color: var(--grayscale-white, #FFF);
-        font-family: Montserrat;
+        color: #FFF;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 160%; /* 25.6px */
     }
     .krosnadar{
         width: 224px;
@@ -94,6 +99,9 @@
         flex-shrink: 0;
         background-color: #DD2A1B;
         border-radius: 40px;
+        color: #FFF;
+        font-size: 36px;
+        margin: 20px 22px;
     }
 }
 .container{
@@ -105,9 +113,8 @@
         width: 344px;
         height: 272px;
         flex-shrink: 0;
-        border: 1px red solid;
         border-radius: 15px;
-        background: #FAFAFA;
+        background: #faf5f5;
         text-align: center;
     }
     .azc img{
@@ -118,11 +125,7 @@
     }
     h1{
         color: #060628;
-        font-family: Montserrat;
         font-size: 64px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 107.7%; /* 68.928px */
         text-align: center;
         margin-top: 80px; 
         margin-bottom: 30px;
@@ -130,29 +133,20 @@
     .azc1{
         color: #060628;
         text-align: center;
-        font-family: Montserrat;
         font-size: 20px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
         padding-bottom:20px;
         
     }
     .azc2{
         color: #060628;
         text-align: center;
-        font-family: Montserrat;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
     }
 }
 .container{
     .bonusy{
         display: flex;
-        justify-content: space-around;
-        align-items: center;
+        justify-content: space-between;
         margin-top: 215px;
     }
     .bonus{
@@ -162,19 +156,11 @@
     }
     .bonus p:nth-child(1){
         color: #060628;
-        font-family: Montserrat;
         font-size: 36px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
     }
     .bonus p:nth-child(2){
         color: #060628;
-        font-family: Montserrat;
         font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 153.4%; /* 30.68px */
     }
     .podrobna{
         width: 340px;
@@ -186,24 +172,20 @@
     }
     .podrobna a{
         color: #0000DE;
-        font-family: Montserrat;
         font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 153.4%; /* 30.68px */ 
     }
     .card{
         width: 470px;
-        height: 299px;
+        height: 300px;
         flex-shrink: 0;        
         border-radius: 25px;
-        background: url('../maket.zashita/imgcard/card1.png'), lightgray -4.536px -2.121px / 101.93% 101.891% no-repeat;
+        background: url('../maket.zashita/imgcard/card1.png'), lightgray  no-repeat;
     }
 }
 .container{
     .neft{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         position: relative;
         margin-top: 80px;
     }
@@ -216,56 +198,36 @@
     }
     .set img{
         position: absolute;
-        bottom: 9px;
-        left: 195px;
+        bottom: 7px;
+        left: 86px;
     }
     .pril{
         width: 500px;
     }
     .pril p:nth-child(1){
         color: #060628;
-        font-family: Montserrat;
         font-size: 36px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
     }
     .pril p:nth-child(2){
         color: #060628;
-        font-family: Montserrat;
         font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 153.4%; /* 30.68px */
     }
 }
 .container{
     .minsk p:nth-child(1){
         color: #060628;
-        font-family: Montserrat;
         font-size: 36px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
         padding-bottom: 20px;
     }
     .minsk p:nth-child(2){
         width: 588px;
         color: #060628;
-        font-family: Montserrat;
         font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 153.4%; /* 30.68px */
         padding-bottom:40px;
     }
     .minsk a{
         color: #0000DE;
-        font-family: Montserrat;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 153.4%; /* 30.68px */        
+        font-size: 20px; 
     }
     .grodno{
         width: 702px;
@@ -284,11 +246,7 @@
 .container{
     h2{
         color: #060628;
-        font-family: Montserrat;
         font-size: 36px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
         text-align: center;
         margin-top:110px;
         margin-bottom: 50px;
@@ -304,12 +262,12 @@
 .container{
     .items{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         padding-top:30px;
     }
     .img_item1{
         border-radius: 15px;
-        background: url('../maket.zashita/fotofotr/foto.png');
+        background: url('../maket.zashita/img_footr/foto.png');
         width: 703px;
         height: 464px;
         flex-shrink: 0;
@@ -330,19 +288,11 @@
 .container{
     .text1{
         color: #FFF;
-        font-family: Montserrat;
         font-size: 24px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
     }
     .text2{
         color: #FFF;
-        font-family: Montserrat;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
     }
     .ul_items{
         color: rgb(216, 206, 206);
