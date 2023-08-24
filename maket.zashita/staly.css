@@ -9,81 +9,113 @@
   width: 1420px;
   margin: 0 auto; }
 
-@font-face {
-  font-family: 'Montserrat';
-  src: url("../maket.zashita/fonts/Montserrat-Light.ttf"); }
 body {
-  font-family: 'Montserrat',sans-serif; }
+  font-family: "Montserrat", sans-serif; }
+
+.header_ul li a {
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer; }
+
+.header_ul li a:hover {
+  border-bottom: 2px solid white; }
+
+.zap {
+  font-size: 30px;
+  font-weight: bold;
+  color: #060628; }
+
+.spisk_h1 {
+  color: #060628;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  font-weight: bold; }
+
+.img_zap3 {
+  padding-bottom: 10px;
+  padding-right: 5px; }
+
+.zap3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #060628; }
 
 .slayder {
-  width: 1920px;
   height: 950px;
   flex-shrink: 0;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.45) 100%), url("../maket.zashita/img_slayd/slayder.png"), lightgray 0px -148.037px/100% 151.579% no-repeat;
-  margin: 0 auto; }
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.45) 100%), url("../maket.zashita/img_slayd/slayder1.png") lightgray 50%/cover no-repeat; }
 
 .container .header ul {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
   padding-top: 45px;
-  color: #FFF;
-  font-size: 16px;
-  border-bottom: 1px solid; }
-.container .header ul a {
-  width: 226px;
+  color: #fff;
+  font-size: 16px; }
+.container .click {
+  width: 196px;
   height: 50px;
   flex-shrink: 0;
   border-radius: 15px;
-  border: 1px solid #0000DE;
-  background: #0000DE; }
-.container .header ul a p {
+  background: #0000de;
   text-align: center;
   padding: 10px;
-  color: #FFF;
-  font-size: 16px; }
+  color: #fff;
+  font-size: 17px; }
 .container b {
   font-size: 30px; }
 .container .icon1 {
-  margin-left: 25px; }
+  margin-left: 48px;
+  position: absolute; }
 .container .icon {
-  margin-left: 92px; }
+  margin-left: 105px;
+  position: absolute; }
 .container .icon2 {
-  margin-left: 56px; }
+  margin-left: 78px;
+  position: absolute; }
 .container .icon3 {
-  margin-left: 48px; }
+  margin-left: 71px;
+  position: absolute; }
 .container .refill {
   display: grid;
   justify-content: end;
   grid-column-gap: 50px;
-  grid-row-gap: 20px; }
+  grid-row-gap: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.36);
+  padding-top: 20px;
+  margin-top: 25px; }
 .container .refill p {
-  color: #FFF;
+  color: #fff;
   font-size: 36px;
   margin: 20px 22px; }
 .container .refill p:nth-child(2) {
-  color: #FFF;
+  color: #fff;
   font-size: 16px; }
 .container .krosnadar {
   width: 224px;
   height: 115px;
   flex-shrink: 0;
   border-radius: 15px;
-  background: #0000DE;
-  margin-top: 95px; }
+  background: #0000de;
+  margin-top: 60px;
+  position: relative; }
 .container .person {
   width: 224px;
   height: 115px;
   flex-shrink: 0;
   border-radius: 15px;
-  border: 1px solid rgba(255, 255, 255, 0.5); }
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  position: relative; }
 .container .knopka {
-  width: 180px;
+  width: 195px;
   height: 160px;
   flex-shrink: 0;
-  background-color: #DD2A1B;
+  background-color: #dd2a1b;
   border-radius: 40px;
-  color: #FFF;
+  color: #fff;
   font-size: 36px;
   margin: 20px 22px; }
 
@@ -102,12 +134,6 @@ body {
   height: 50px;
   flex-shrink: 0;
   margin-top: 47px; }
-.container h1 {
-  color: #060628;
-  font-size: 64px;
-  text-align: center;
-  margin-top: 80px;
-  margin-bottom: 30px; }
 .container .azc1 {
   color: #060628;
   text-align: center;
@@ -126,21 +152,19 @@ body {
   width: 702px;
   height: 398px;
   flex-shrink: 0; }
-.container .bonus p:nth-child(1) {
-  color: #060628;
-  font-size: 36px; }
 .container .bonus p:nth-child(2) {
   color: #060628;
-  font-size: 20px; }
+  font-size: 20px;
+  padding-top: 15px; }
 .container .podrobna {
   width: 340px;
   height: 80px;
   border-radius: 15px;
-  border: 1px solid #0000DE;
+  border: 1px solid #0000de;
   text-align: center;
   padding: 25px; }
 .container .podrobna a {
-  color: #0000DE;
+  color: #0000de;
   font-size: 20px; }
 .container .card {
   width: 470px;
@@ -152,26 +176,24 @@ body {
 .container .neft {
   display: flex;
   justify-content: space-between;
-  position: relative;
   margin-top: 80px; }
 .container .set {
   width: 500px;
   height: 300px;
   flex-shrink: 0;
   border-radius: 64px 6px;
-  background: #0000DE; }
-.container .set img {
+  background: #0000de;
+  position: relative; }
+.container .set_img {
   position: absolute;
-  bottom: 7px;
+  bottom: 0px;
   left: 86px; }
 .container .pril {
   width: 500px; }
-.container .pril p:nth-child(1) {
-  color: #060628;
-  font-size: 36px; }
 .container .pril p:nth-child(2) {
   color: #060628;
-  font-size: 20px; }
+  font-size: 20px;
+  padding-top: 20px; }
 
 .container .minsk p:nth-child(1) {
   color: #060628;
@@ -183,14 +205,31 @@ body {
   font-size: 20px;
   padding-bottom: 40px; }
 .container .minsk a {
-  color: #0000DE;
+  color: #0000de;
   font-size: 20px; }
 .container .grodno {
   width: 702px;
   height: 398px;
   flex-shrink: 0;
   border-radius: 64px 6px;
-  background: url("../maket.zashita/imgzprawka/Rectangle1.png"), lightgray 50%/cover no-repeat; }
+  background: url("../maket.zashita/imgzprawka/Rectangle1.png"), lightgray 50%/cover no-repeat;
+  position: relative; }
+.container .icons1 {
+  position: absolute;
+  top: 20px;
+  left: 110px; }
+.container .icons2 {
+  position: absolute;
+  top: 275px;
+  right: 60px; }
+.container .icons3 {
+  position: absolute;
+  top: 260px;
+  left: 175px; }
+.container .icons4 {
+  position: absolute;
+  top: 50px;
+  right: 60px; }
 .container .maps {
   display: flex;
   justify-content: space-around;
@@ -198,17 +237,13 @@ body {
   margin-top: 80px; }
 
 .container h2 {
-  color: #060628;
-  font-size: 36px;
-  text-align: center;
   margin-top: 110px;
   margin-bottom: 50px; }
-.container .video {
+.container .video iframe {
   width: 1420px;
   height: 771px;
   flex-shrink: 0;
-  border-radius: 15px;
-  background: url("../maket.zashita/imgvideo/Rectangle.png"), lightgray 50%/cover no-repeat; }
+  border-radius: 15px; }
 
 .container .items {
   display: flex;
@@ -222,9 +257,26 @@ body {
   flex-shrink: 0; }
 .container .img_item {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  padding-top: 195px; }
+  padding-top: 65px; }
+.container .img2 {
+  padding-left: 55px; }
+.container .title {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  color: #060628;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 58px; }
+.container .text {
+  padding-bottom: 25px;
+  padding-left: 50px; }
+.container .icons_item h3 {
+  color: #060628;
+  font-size: 36px;
+  margin-top: 110px;
+  margin-left: 110px; }
 
 .footer {
   background: #000061;
@@ -233,16 +285,28 @@ body {
   margin-top: 30px; }
 
 .container .text1 {
-  color: #FFF;
+  color: #fff;
   font-size: 24px; }
 .container .text2 {
-  color: #FFF;
+  color: #fff;
   font-size: 16px; }
-.container .ul_items {
-  color: #d8cece; }
 .container .ul_items {
   display: flex;
   justify-content: space-around;
-  padding-top: 100px; }
+  padding-top: 100px;
+  color: #d8cece;
+  line-height: 214%;
+  position: relative; }
+.container .img_footr {
+  width: 400px;
+  height: 320px;
+  border-radius: 15px; }
+.container .img_footr12 {
+  position: absolute;
+  top: 225px;
+  right: 210px; }
+.container .click2 {
+  color: white;
+  text-align: center; }
 
 /*# sourceMappingURL=staly.css.map */

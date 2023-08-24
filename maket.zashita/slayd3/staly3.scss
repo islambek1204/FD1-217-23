@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.container {
+  width: 1420px;
+  margin: 0 auto;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../maket.zashita/fonts/Montserrat-Light.ttf");
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.header_ul li a {
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.header_ul{
+    list-style-type: none;
+}
+.header_ul li a:hover {
+  border-bottom: 2px solid white;
+}
+.zap {
+  font-size: 30px;
+  font-weight: bold;
+  color: #060628;
+}
+.zap1 {
+  color: #060628;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.img_zap3 {
+  padding-bottom: 10px;
+  padding-right: 5px;
+}
+.zap3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #060628;
+}
+.slayder {
+  height: 950px;
+  flex-shrink: 0;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, -0.55) 0%,
+      rgba(0, 0, 0, 0.45) 100%
+    ),
+    url("../slayd3/img_slayd3/slayder3.png") lightgray 50% / cover no-repeat;
+}
+.container {
+  .header ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-top: 35px;
+    color: #fff;
+    font-size: 16px;
+  }
+  .click {
+    width: 196px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #0000de;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 15px;
+  }
+  .wrap {
+    margin-top: 25px;
+    border-top: 1px solid rgba(255, 255, 255, 0.36);
+  }
+  b {
+    font-size: 30px;
+  }
+}
+.container {
+  .title_head {
+    color: #fff;
+    font-size: 64px;
+  }
+  .text_head {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  .click_btn {
+    width: 393px;
+    height: 81px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #dd2a1b;
+    color: #fff;
+    margin-top: 45px;
+  }
+  .header_items {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 210px;
+  }
+}
+.container {
+  .carousel {
+    margin-top: 80px;
+  }
+  .personal_title {
+    color: #0000de;
+    font-size: 16px;
+    padding-top: 20px;
+  }
+  .personal_text {
+    color: #060628;
+    font-size: 36px;
+    text-align: center;
+  }
+}
+.container {
+  .job_img{
+    display: flex;
+    justify-content: space-around;
+  }
+  .job{
+    position: relative;
+  }
+  .icons1{
+    position: absolute;
+    top: 225px;
+    right: 210px;
+  }
+  .job_img1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+  }
+  .job_text1{
+    padding-left: 10px;
+  }
+  .job_title {
+    color: #060628;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .job_text {
+    color: #060628;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .job_mail{
+    display: flex;
+    justify-content: space-around;
+  }
+  .mail_img::before{
+   content: url('../slayd3/img_mail/Letter.png');
+   padding-right: 5px;
+  }
+}
+.footer {
+    background: #000061;
+    height: 542px;
+    flex-shrink: 0;
+    margin-top: 30px;
+  }
+  .container {
+    .text1 {
+      color: #fff;
+      font-size: 24px;
+    }
+    .text2 {
+      color: #fff;
+      font-size: 16px;
+    }
+    .ul_items {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 100px;
+      color: rgb(216, 206, 206);
+      line-height: 214%;
+      position: relative;
+    }
+    .img_footr {
+      width: 400px;
+      height: 320px;
+      border-radius: 15px;
+    }
+    .img_footr12 {
+      position: absolute;
+      top: 225px;
+      right: 210px;
+    }
+    .click2 {
+      color: white;
+      text-align: center;
+    }
+  }

@@ -1,0 +1,18 @@
+
+  @media all and (max-width: 1100px){
+    .container .header_ul{
+    flex-direction: column;
+   }
+   .container .refill{
+    display: none;
+   }
+   .container .bonusy{
+     display: none;
+   }
+   .container .neft{
+    display: none;
+   }
+   .container .grodno{
+    background-image: none;
+   }
+ }
