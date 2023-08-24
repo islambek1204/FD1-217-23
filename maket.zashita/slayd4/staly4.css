@@ -140,6 +140,14 @@ body {
   padding-top: 25px;
   font-weight: bold;
   padding-bottom: 20px; }
+.container .text_img1::before {
+  content: url("../slayd4/img_befor/img1.png"); }
+.container .text_img2::before {
+  content: url("../slayd4/img_befor/img2.png"); }
+.container .text_img3::before {
+  content: url("../slayd4/img_befor/img3.png"); }
+.container .text_img4 {
+  content: url("../slayd4/img_befor/img4.png"); }
 
 .footer {
   background: #000061;
